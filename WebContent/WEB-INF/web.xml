@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>results</display-name>
+  <welcome-file-list>
+    <welcome-file>RaceResults.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+        <param-name>Path</param-name>
+        <param-value>C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\results</param-value>
+  </context-param>
+</web-app>
